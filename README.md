@@ -1,9 +1,6 @@
-```markdown
 # Customer Churn Prediction App
 
 An end-to-end Machine Learning web application built to predict bank customer churn using an Artificial Neural Network (ANN)[cite: 1, 2]. The application is built with **TensorFlow/Keras** for deep learning and deployed interactively via **Streamlit**[cite: 2, 4].
-
----
 
 ## Project Overview
 
@@ -12,8 +9,6 @@ Customer churn is a critical metric for businesses, especially in banking. This 
 * **Model Type:** Artificial Neural Network (ANN) with Sequential API[cite: 1]
 * **Frontend/UI:** Streamlit Web App[cite: 2]
 * **Frameworks & Libraries:** TensorFlow, Scikit-Learn, Pandas, NumPy[cite: 4]
-
----
 
 ## Dataset Features
 
@@ -26,8 +21,6 @@ The model is trained on the `Churn_Modelling.csv` dataset[cite: 1], containing f
 * **NumOfProducts:** Number of bank products the customer uses[cite: 1, 2]
 * **HasCrCard & IsActiveMember:** Binary indicators for credit card ownership and activity status[cite: 1, 2]
 * **Exited:** Target variable (1 if the customer churned, 0 otherwise)[cite: 1]
-
----
 
 ## Project Structure
 
@@ -42,7 +35,6 @@ The model is trained on the `Churn_Modelling.csv` dataset[cite: 1], containing f
 
 ```
 
----
 
 ## Installation & Setup
 
